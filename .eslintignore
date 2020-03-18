@@ -1,0 +1,9 @@
+dist/
+coverage/
+example/build
+node_modules
+storybook-static
+!.eslintrc.js
+!.babelrc.js
+!.stylelintrc.js
+!.storybook/

@@ -1,0 +1,21 @@
+{
+  "name": "react-component-library-starter-example",
+  "homepage": "https://ericmasiello.github.io/react-component-library-starter",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "react-component-library-starter": "file:..",
+    "react-scripts": "^3.3.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.12.0",
+    "react-dom": ">=16.12.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

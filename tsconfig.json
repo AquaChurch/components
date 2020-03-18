@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "target": "es5",
+    "jsx": "react",
+    "typeRoots": ["./src/typings"]
+  },
+  "include": ["src/**/*"]
+}
