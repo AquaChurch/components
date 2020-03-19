@@ -1,5 +1,5 @@
 import React from 'react';
-import './Spinner.less';
+import './Spinner.scss';
 
 function Spinner() {
   return (

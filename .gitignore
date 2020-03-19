@@ -27,3 +27,9 @@ yarn-error.log*
 #jest
 coverage
 .idea
+storybook-static
+package-lock.json
+
+yarn.lock
+
+index.css

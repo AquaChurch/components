@@ -1,0 +1,18 @@
+.thumbnail-wrap-re {
+  &::before {
+    content: '';
+    padding-top: 100%;
+    display: block;
+  }
+  cursor: pointer;
+  @media (min-width: 1024px) {
+    &:hover {
+      background-size: contain;
+      box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.5);
+    }
+  }
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}

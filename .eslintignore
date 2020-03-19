@@ -6,4 +6,4 @@ storybook-static
 !.eslintrc.js
 !.babelrc.js
 !.stylelintrc.js
-!.storybook/
+!example/.storybook/

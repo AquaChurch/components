@@ -1,21 +1,6 @@
-:book: This is my util components built in React !~
-
-## Example
-
-[example](https://components.powerfulyang.com)
-
-## Install
-
-```bash
-npm install --save @powerfulyang/components
-```
-
-## Usage
-
-```jsx
 import React from 'react';
-import { PhotoSlider } from '@powerfulyang/components';
 import '@powerfulyang/components/index.css';
+import { PhotoSlider } from '@powerfulyang/components';
 
 export const PhotoView = () => {
   const list = [
@@ -54,6 +39,16 @@ export const PhotoView = () => {
     'https://sinaimg.inn-studio.com/mw1024/007iocwWgy1fwrqqpr13yj30cx0i2q45.jpg',
     'https://sinaimg.inn-studio.com/mw1024/006DgsQsly1ftgnfihly2j30jn0rsww5.jpg',
     'https://sinaimg.inn-studio.com/large/005zWjpngy1ftrp16mt2oj30cb0i2wj3.jpg',
+    'https://sinaimg.acgsoso.com/mw1024/007ZKdkxgy1ge0aompluqj30lc0u342q.jpg',
+    'https://sinaimg.acgsoso.com/mw1024/007ZKdkxgy1ge0aoo1aezj30lc0u60uq.jpg',
+    'https://sinaimg.acgsoso.com/mw1024/007ZKdkxgy1ge0aopmfqmj30lc0ryjta.jpg',
+    'https://sinaimg.acgsoso.com/mw1024/007ZKdkxgy1ge0aornunnj30lc0dc0ue.jpg',
+    'https://sinaimg.acgsoso.com/mw1024/007ZKdkxgy1gdzwwtla78j315o0seu0y.jpg',
+    'https://sinaimg.acgsoso.com/mw1024/007ZKdkxgy1gdzwx1eorwj30mb0vkaws.jpg',
+    'https://sinaimg.acgsoso.com/mw1024/007ZKdkxgy1gdzwxa1dw1j30u01851kx.jpg',
+    'https://sinaimg.acgsoso.com/mw1024/007ZKdkxgy1gdzwxh7jdcj30nm0go7nc.jpg',
+    'https://sinaimg.acgsoso.com/mw1024/007ZKdkxgy1gdzwy0rad7j30rs0y4qq6.jpg',
+    'https://sinaimg.acgsoso.com/mw1024/007ZKdkxgy1gdzwzp4pt3j30xc1jub29.jpg',
   ];
   const listSrc = list.map((item) => ({ src: item }));
   return (
@@ -62,12 +57,13 @@ export const PhotoView = () => {
         name="viewport"
         content="width=device-width,initial-scale=1.0,maximum-scale=1.0, user-scalable=0"
       />
+      <h1 style={{ textAlign: 'center' }}>2020-04-21</h1>
       <PhotoSlider imgList={listSrc} />
     </>
   );
 };
-```
 
-## License
-
-[MIT](./LICENSE.md)
+export default {
+  title: 'photo-view',
+  component: PhotoView,
+};

@@ -1,21 +1,29 @@
 {
-  "name": "react-component-library-starter-example",
-  "homepage": "https://ericmasiello.github.io/react-component-library-starter",
-  "version": "0.0.0",
-  "license": "MIT",
-  "private": true,
-  "dependencies": {
-    "react-component-library-starter": "file:..",
-    "react-scripts": "^3.3.0"
-  },
-  "peerDependencies": {
-    "react": ">=16.12.0",
-    "react-dom": ">=16.12.0"
-  },
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [],
+  "author": "powerfulyang",
+  "license": "ISC",
+  "dependencies": {
+    "@powerfulyang/components": "link:..",
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-info": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/react": "^5.3.18",
+    "babel-loader": "^8.1.0",
+    "ts-loader": "^7.0.0",
+    "typescript": "^3.8.3"
   }
 }

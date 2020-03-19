@@ -9,6 +9,7 @@ function ArrowRight(props: SVGProps<SVGSVGElement>) {
       height="44"
       viewBox="0 0 768 768"
       {...props}
+      fill="#fff"
     >
       <path d="M384 127.5l256.5 256.5-256.5 256.5-45-45 178.5-180h-390v-63h390l-178.5-180z" />
     </svg>

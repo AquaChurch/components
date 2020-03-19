@@ -1,6 +1,6 @@
 module.exports = {
   extends: 'react-app',
-  "plugins": ["react-hooks"],
+  plugins: ['react-hooks'],
   rules: {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'error',
@@ -15,7 +15,7 @@ module.exports = {
     // Forbid the use of extraneous packages
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md
     'import/no-extraneous-dependencies': [
-      'error',
+      'off',
       {
         devDependencies: [
           'rollup.config.js',
