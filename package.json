@@ -1,6 +1,6 @@
 {
   "name": "@powerfulyang/components",
-  "version": "0.5.6",
+  "version": "0.5.7",
   "description": "",
   "author": "",
   "license": "SEE LICENSE IN LICENSE.md",
@@ -41,7 +41,7 @@
     "react-dom": "16.13.1"
   },
   "dependencies": {
-    "@powerfulyang/utils": "0.4.1",
+    "@powerfulyang/utils": "0.4.2",
     "classnames": "^2.2.6",
     "intersection-observer": "^0.9.0",
     "react": "^16.13.1",
